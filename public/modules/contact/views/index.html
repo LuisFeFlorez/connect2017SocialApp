@@ -1,0 +1,24 @@
+<div class="row">
+    <table class="table table-striped">
+        <tr>
+            <td><h5>Is External:</h5></td>
+            <td> {{ info.entry.appData.connections.isExternal }}</td> 
+        </tr>
+        <tr>
+            <td><h5>Organization ID:</h5></td>
+            <td> {{ info.entry.appData.connections.organizationId }}</td> 
+        </tr>
+        <tr>
+            <td><h5>Display Name:</h5></td>
+            <td> {{ info.entry.displayName }}</td> 
+        </tr>
+        <tr>
+            <td><h5>Correo Primario:</h5></td>
+            <td> {{ info.entry.emails[0].value }}</td> 
+        </tr>
+        <tr>
+            <td><h5>User ID:</h5></td>
+            <td> {{ info.entry.id }}</td> 
+        </tr>
+    </table>
+</div>

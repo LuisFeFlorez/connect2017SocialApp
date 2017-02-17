@@ -1,0 +1,32 @@
+<div class="row">
+    <!-- TWEET WRAPPER START -->
+    <div class="twt-wrapper">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                Actualizaciones
+            </div>
+            <br>
+            <br>
+            <div class="panel-body">
+                <ul class="media-list">
+                    <li class="media" ng-repeat="post in stream">
+                        <a class="pull-left">
+
+                            <img src="https://apps.na.collabserv.com/contacts/profiles/photo/{{mySplit(post.actor.id, 4)}}" alt="" class="img-circle">
+                        </a>
+                        <div class="media-body">
+                            <span class="text-muted pull-right">
+                                <small class="text-muted" am-time-ago="post.openSocial.embed.context.published"></small>
+                            </span>
+                            <strong class="text-success" ng-bind-html="post.openSocial.embed.context.eventTitle"></strong>
+                            <p ng-bind-html="post.openSocial.embed.context.summary"></p>
+                            <h6>{{ post.object.likes.totalItems }} <small>Likes</small></h6>
+                        </div>
+                    </li>
+                </ul>
+                <span class="text-danger">{{ stream.length }} Actualizaciones Recientes</span>
+            </div>
+        </div>
+    </div>
+    <!-- TWEET WRAPPER END -->
+</div>

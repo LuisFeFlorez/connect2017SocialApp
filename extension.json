@@ -1,0 +1,30 @@
+https://apps.na.collabserv.com/appregistry/api/v1/extensions
+
+{
+  "name": "Muro de Conversación",
+  "description": "description",
+  "type":"community_widget",
+  "urls":{},
+  "payload": {
+    "defId": "Muro de Conversación",
+    "showInPalette": "true",
+    "primaryWidget": "true",
+    "modes": "view",
+    "themes": "wpthemeThin wpthemeNarrow wpthemeWide wpthemeBanner",
+    "url": "https://apps.na.collabserv.com/connections/resources/web/com.ibm.social.urliWidget.web.resources/widget/urlWidget.xml",
+    "itemSet": [
+      {
+        "value": "https://connectionsapp.eu-gb.mybluemix.net",
+        "name": "url"
+      },
+      {
+        "value": "100%",
+        "name": "width"
+      },
+      {
+        "value": "400px",
+        "name": "height"
+      }
+    ]
+  }
+}
