@@ -1,7 +1,7 @@
 applications:
 - path: .
   memory: 256M
-  instances: 2
+  instances: 1
   domain: mybluemix.net
   name: connect2017socialapp
   host: connect2017socialapp

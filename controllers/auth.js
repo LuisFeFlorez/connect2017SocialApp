@@ -77,9 +77,9 @@ module.exports = {
 		var post_data = querystring.stringify({
 			'code' : req.body.code,
 			'grant_type': 'authorization_code',
-			'client_id': '<client_id>',
-			'client_secret': '<client_secret>',
-			'callback_uri' : 'https://<appName>.mybluemix.net/#/auth/ibm-connections-cloud/callback'
+			'client_id': 'app_23191556_1487572054382',
+			'client_secret': '633412f6f7fc33322ccbe73f2a847d109ebfe26e886f7d1b5a7f187b8fedb7abd5494a563e58f2d92256931d94120aa4a9249098f16b3f84742ee220706a100cf631c8ef8683fb610e4ffec6adb93021c5ee1fbe78b65cae01c8e53bfce8fc28df15d8257a051f2116861aefe96060e2bad00589610359b0a5b698664745e3',
+			'callback_uri' : 'https://connect2017socialapp.mybluemix.net/#/auth/ibm-connections-cloud/callback'
 		});
 
 		var options = {
