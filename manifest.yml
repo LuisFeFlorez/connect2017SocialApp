@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 2
   domain: mybluemix.net
-  name: connectionsApp
-  host: connectionsapp
+  name: connect2017socialapp
+  host: connect2017socialapp
   disk_quota: 1024M
