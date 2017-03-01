@@ -49,8 +49,8 @@ config(['$locationProvider', '$routeProvider', '$httpProvider', function($locati
     function($window) {
         
         $window.location.href = 'https://apps.na.collabserv.com/manage/oauth2/authorize?callback_uri=' +
-                        encodeURIComponent('https://connect2017socialapp.mybluemix.net/#/auth/ibm-connections-cloud/callback') +
-                        '&client_id=app_23191556_1487572054382&response_type=code';
+                        encodeURIComponent('https://<appName>.mybluemix.net/#/auth/ibm-connections-cloud/callback') +
+                        '&client_id=<client_id>&response_type=code';
     }
 ])
 .controller("CallbackCtrl", ['$routeParams', '$location', 'Auth',
