@@ -103,8 +103,6 @@ module.exports = {
 		  			
 		  			var partido = body.split("&");
 
-		  			console.log("BODY::::",body);
-
 		  			req.oauthConnections = {
 		                accessToken: partido[0].split("=")[1],
 		                refreshToken: partido[1].split("=")[1],
