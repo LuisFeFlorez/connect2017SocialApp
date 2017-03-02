@@ -29,7 +29,6 @@
 
 <body ng-controller="MainCtrl" ng-init="init()">
     <!-- Div Connections Header HERE -->
-    <div id="connections-banner" class="lotusui30 lotusui30_body lotusui30_fonts scloud3"></div>
     
 
     <div class="container-fluid">
@@ -111,18 +110,8 @@
     <script src="https://personality-insights-livedemo.mybluemix.net/js/components/personality-sunburst-chart.standalone.min.js"></script>
     
     <!-- Connections Header Script HERE -->
-    <script>
-        $(function(){   
-            var connectionsCloudHostname = 'apps.na.collabserv.com'; // Change this as required
-
-            if ($('#connections-banner').length > 0) {
-              $('head').append(
-                '<link rel="stylesheet" href="//' + connectionsCloudHostname + '/theming/theme/css/3" type="text/css" />' +
-                '<script src="//' + connectionsCloudHostname + '/navbar/banner/partner/connections-banner?oneui=3"><\/script>'
-              );
-            }
-        });
-    </script>
+    
+    
 </body>
 
 </html>
